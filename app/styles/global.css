@@ -1,0 +1,162 @@
+/*
+    HEADLINE FONT
+    CAIRO WEIGHT 600
+    BODY FONT
+    BARLOW WEIGHT 400
+    primary color #B0A67A
+    accent color #E8D264
+    neutral color #1B180E
+*/
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/assets/fonts/Cairo/static/Cairo-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/assets/fonts/Cairo/static/Cairo-Black.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/assets/fonts/Cairo/static/Cairo-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/assets/fonts/Cairo/static/Cairo-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/assets/fonts/Cairo/static/Cairo-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/assets/fonts/Cairo/static/Cairo-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    background-color: #f8f7f7;
+}
+
+.navBar {
+    background-color: #1B180E;
+    padding-left: 24px;
+    height: 64px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+nav {
+    height: 64px;
+}
+
+ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+td,
+th {
+    font-family: "Barlow";
+    font-weight: 600;
+}
+
+th {
+    font-family: "Cairo";
+    font-weight: 400;
+    text-align: left;
+}
+
+li {
+    margin-right: calc(12px + 2vw);
+    text-transform: lowercase;
+    list-style-type: none;
+}
+
+a {
+    color: #FFF;
+    font-family: "Barlow";
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.NavLogo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h2 {
+    font-family: "Cairo";
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    font-family: "Barlow";
+}
+
+.MainAppContainer {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 32px;
+}
