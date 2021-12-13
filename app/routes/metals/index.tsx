@@ -1,4 +1,4 @@
-import type { MetaFunction } from "remix";
+import { Link, MetaFunction } from "remix";
 
 export let meta: MetaFunction = () => {
   return {
@@ -13,6 +13,7 @@ export default function Metals() {
       <main>
         <h2>Precious Metals</h2>
       </main>
+      <Link style={{color:'#b19710'}} to="/metals/gold">Gold</Link>
       <aside>
         <p>
           Vik wise Ivar Horsetail Snorri Yuletide the Thing Ivar Horsetail

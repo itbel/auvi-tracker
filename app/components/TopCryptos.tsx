@@ -62,7 +62,7 @@ export function TopCryptos() {
         </thead>
         <tbody >
           {data?.map((coin) => (
-            <tr>
+            <tr key={coin.name}>
               <td style={{width:40 }}>
                 <img
                   width="32"
